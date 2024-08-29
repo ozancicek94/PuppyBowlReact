@@ -1,0 +1,49 @@
+div{
+  font-family: monospace;
+
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.PuppyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  
+}
+
+li {
+  border: 1px solid blue;
+  height: 500px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+  padding-top: 15px;
+  padding: 10px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 5em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+
+}
+
+button {
+  margin: 5px;
+  margin-bottom: 20px;
+  width: 200px;
+  min-height: 30px;
+  background-color: blue;
+  color: greenyellow;
+  border: none;
+  align-self: center;
+  font-family: monospace;
+}
+
